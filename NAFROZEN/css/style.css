@@ -1,0 +1,297 @@
+/* Style Untuk Form Login */
+.tubuh {
+	font-family: sans-serif;
+	background: #d5f0f3;
+}
+
+.tubuh h1 {
+	text-align: center;
+	/*ketebalan font*/
+	font-weight: 300;
+}
+
+#atha3417 {
+	text-decoration: none;
+	color: black;
+}
+
+.tulisan_login{
+	text-align: center;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+}
+
+.kotak_login{
+	width: 350px;
+	background: white;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+}
+
+label{
+	font-size: 11pt;
+}
+
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+
+.tombol_login{
+	background: #46de4b;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+/* Style Untuk Index.html */
+.one, .two {
+	margin: 0;
+	padding: 0;
+}
+
+.two {
+	background-image: url(../img/Admin/sativa.png);
+	height: 3000px;
+}
+
+.topbar {
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 100px;
+	position: fixed;
+	background-color: #17fdda;
+	margin-top: -10px;
+	margin-left: -10px;
+	padding-left: 10px;
+	opacity: 100;
+	z-index: 9999;
+	box-shadow: 2px 2px 70px aqua;
+}
+
+header {
+	position: relative;
+}
+
+.topbar nav {
+	word-spacing: 15px;
+	text-align: center;
+	margin-top: 33px;
+	margin-right: 290px;
+}
+
+.topbar nav a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+.topbar nav ul a {
+	color: black;
+	text-decoration: none;
+	margin-top: 50px;
+	font-weight: 600;
+}
+
+.logo img {
+	width: 100px;
+	height: 100px;
+	margin: -66px 0 0 15px;
+}
+
+.logo h1 {
+	margin: -75px 0 0 120px;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px salmon;
+}
+
+/*TODO ini untuk dropdown pengganti titik 3*/
+
+.mainmenubtn {
+	background-color: red;
+	color: white;
+	border: none;
+	cursor: ;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	margin: -70px 50px 0 0;
+	float: right;
+}
+
+.dropdown-child {
+	display: none;
+	background-color: black;
+	min-width: 20px;
+}
+
+.dropdown-child a {
+	color: white;
+	padding: 20px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown:hover .dropdown-child {
+	display: block;
+}
+
+.dropdown-child a:hover {
+	text-decoration: underline;
+}
+
+/*TODO ini untuk search box*/
+
+#form1 {
+	width: 500px;
+	margin: -44px -185px 0 0;
+	float: right;
+}
+
+.search {
+	padding: 8px 15px;
+	background: #f0f8ff;
+	border: 2px solid #008080;
+}
+
+.button {
+	position: relative;
+	left: -4px;
+	padding: 10px 15px;
+	border: 0px solid #008080;
+	background-color: #6B8E23;
+	color: #fafafa;
+	font-weight: bold;
+}
+
+.button:hover {
+	background: #008080;
+	color: #fafafa;
+}
+
+.button:active {
+	background: #9ACD32;
+}
+
+/*TODO ini main*/
+
+main {
+	margin: 165px auto auto auto;
+	border: 2px solid black;
+	width: 1000px;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color:#efe;
+}
+
+.hot {
+	width: 480px;
+	float: right;
+	font-size: 17px;
+	font-family: comic sans ms;
+	line-height: 27px;
+	margin-top: -15px;
+	text-align: justify-all;
+	font-weight: 400;
+}
+
+main .awal h1 {
+	position: relative;
+	bottom: -110px;
+	margin: 1px auto;
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+	width: 650px;
+	text-decoration: underline;
+}
+
+article {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.list {
+	padding: 30px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+
+.list.satu {
+	background-color: rgb(119,119,255);
+}
+
+.list.dua {
+	background-color: rgb(103,216,103);
+}
+
+.list.tiga {
+	background-color: rgb(255,124,124);
+}
+
+/* #satu {
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 17px;
+	width: 1070px;
+	text-align: left;
+	line-height: 22px;
+	font-family: 'Arial';
+}
+
+#dua {
+	margin: auto;
+	font-size: 17px;
+	width: 1070px;
+	text-align: left;
+	line-height: 22px;
+	font-family: 'arial';
+} */
+
+/*ini micro clearfix*/
+
+.cf:before,
+.cf:after {
+	content: " ";
+	display: table;
+}
+
+.cf:after {
+	clear: both;
+}
+
+.cf {
+	*zoom: 1;
+}
+
+ @media (min-width: 600px) {
+	article {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.list {
+		width: 30%;
+	}
+}

@@ -1,0 +1,327 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+/* css code */
+
+body {
+	font: 16px/28px arial, sans-serif;
+	background-color: lightgrey;
+	background-image: url(../img/sativa.png);
+}
+
+.top-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 72px;
+	background-color: lightskyblue;
+	border-bottom: 5px solid salmon;
+	z-index: 9999;
+}
+
+.container {
+	width: 960px;
+	margin: 80px auto;
+	background-color: white;
+	position: relative;
+}
+
+.IG {
+	width: 200px;
+	height: 200px;
+	background-image: url(../img/instagram.png);
+	background-repeat: no-repeat;
+	background-size: 150px;
+	display: inline-block;
+	text-indent: -9999px;
+	position: absolute;
+	top: -15px;
+	right: -59px;
+}
+
+.header {
+	padding: 20px;
+	padding-bottom: 10px;
+}
+
+.header .Judul {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.header li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 15px;
+}
+
+.header a {
+	text-decoration: none;
+	color: salmon;
+	padding: 3px;
+}
+
+.header a:hover {
+	background-color: lightskyblue;
+	color: white;
+}
+
+.header a:visited {
+	color: orange;
+}
+
+.hero {
+	height: 410px;
+	background-image: url(../img/hero2.jpg);
+	background-size: cover;
+	background-position: 0 -40px;
+	border-top: 5px solid salmon;
+	border-bottom: 6px solid lightskyblue;
+}
+
+.main  {
+	width: 600px;
+	padding: 17px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.main h2 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.penulis {
+	font-size: 13px;
+	padding-bottom: 11px;
+}
+
+.penulis a {
+	color: salmon;
+	text-decoration: none;
+}
+
+.penulis a:hover {
+	background-color: lightskyblue;
+	color: white;
+	padding: 2px;
+}
+
+.penulis a:visited {
+	color: blue;
+}
+
+.main .penulis {
+	margin-top: -5px;
+}
+
+.main p {
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+
+.footer {
+	background-color: #333;
+	text-align: center;
+	padding: 5px;
+	font-size: 15
+}
+
+.thank {
+	font-weight: bold;
+	text-align: center;
+}
+
+/*sidebar*/
+
+.sidebar {
+	width: 300px;
+	float: right;
+	padding-top: 17px;
+}
+
+.sidebar h3 {
+	font-weight: bold;
+	color: grey;
+}
+
+.sidebar img {
+	width: 100px;
+	float: left;
+	padding-right: 10px;
+}
+
+.sidebar p {
+	font: 13px/19px arial;
+}
+
+.link a {
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.link a:hover {
+	background-color: lightskyblue;
+	font-size: 16px;
+}
+
+.medsos a {
+	font-size: 13px;
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+}
+
+.medsos a:hover {
+	background-color: lightskyblue;
+	font-size: 14px;
+}
+
+textarea {
+	overflow: auto;
+	width: 400px;
+	height: 300px;
+	background-color: #999;
+	color: #000;
+	border-left: 3px solid black;
+}
+
+.pala {
+    width: 408.7px;
+    height: 32px;
+    background-color: black;
+    margin-top: 15px;
+    position: absolute;
+    top: 650px;
+    color: white;
+    text-align: center;
+}
+
+.pala2 {
+    width: 408px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    bottom: 90px;
+}
+
+.img-copy {
+	width: 15px;
+	height: 15px;
+}
+
+/*ini adalah clearfix*/
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+
+
+
+
+/* copy button */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    margin-left: 373px;
+    margin-top: 13.5px;
+    margin-bottom: .5px;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}

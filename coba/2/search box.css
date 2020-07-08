@@ -1,0 +1,92 @@
+.topbar {
+	width: 1360px;
+	height: 100px;
+	position: fixed;
+	background-color: #17fdda;/*#1ea*/
+	margin-top: -10px;
+	margin-left: -10px;
+	padding-left: 10px;
+}
+
+.container {
+	height: 3000px;
+	position: relative;
+}
+
+.topbar ul {
+	word-spacing:15px;
+	text-align: center;
+	margin-top: 33px;
+	margin-right: 105px;;
+}
+
+.topbar .satu, .dua, .tiga, .empat, .lima {
+	color: black;
+	text-decoration: none;
+	margin-top: 50px;
+}
+
+.logo img {
+	width: 100px;
+	height: 100px;
+	margin: -66px 0 0 15px;
+	border-radius: 50%;
+}
+
+.logo h1 {
+	margin: -75px 0 0 124px;
+}
+
+.menu .tombol img {
+	width: 50px;
+	float: right;
+	margin: -42px 27px 0 0;
+	display: inline-block;
+}
+
+form {
+	width:500px;
+	margin: -44px -120px 0 0;
+	float: right;
+}
+
+.search {
+	padding:8px 15px;
+	background: #f0f8ff;
+	border:2px solid #008080;
+}
+
+.button {
+	position:relative;
+	left:-4px;
+	padding:10px 15px;
+	border:0px solid #008080;
+	background-color: #6B8E23;
+	color:#fafafa;
+	font-weight:bold;
+}
+
+.button:hover {
+	background: #008080;
+	color: #fafafa;
+}
+
+.button:active {
+			background: #9ACD32;
+}
+
+/*ini micro clearfix*/
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}

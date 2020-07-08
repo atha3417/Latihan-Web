@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MyWebsite</title>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="copy.css">
+    <style>
+
+    </style>
+</head>
+<body>
+
+	<div class="top-bar"></div>
+	<div class="container">
+		<a href="https://www.instagram.com/atha_3417_1311/" class="IG" target="_blank">@Muhammad Atha Tsaqif</a>
+		<div class="header">
+			<h1 class="Judul">MyWebsite</h1>
+			<ul>
+				<li><a href="#">home</a></li>
+				<li><a href="#">about</a></li>
+				<li><a href="#">products</a></li>
+				<li><a href="#">services</a></li>
+				<li><a href="#">contact</a></li>
+			</ul>
+		</div>
+		<div class="hero"></div>
+		<div class="content cf">
+			<div class="main">
+				<h2>Menu Dropdown/navbar</h2>
+			<p class="penulis">ditulis oleh <a href="https://www.instagram.com/atha_3417_1311/">Muhammad Atha Tsaqif</a> pada 25,April 2020</p>
+			<h5>Berikut Adalah caranya :</h5>
+			<div class="pala"><p>Source Code</p></div>
+			<div class="tooltip">
+				<button class="btn-copy" onclick="myFunction()" onmouseout="outFunc()">
+					<img src="img/copy.png" alt="Copy" class="img-copy">
+                    <span class="tooltiptext" id="myTooltip">Copy text</span>
+				</button>
+			</div>
+            <div>
+            <textarea id="myInput" readonly="">
+<!Doctype html>
+<html>
+<head>
+    <title>Dropdown</title>
+</head>
+<style>
+    * {margin:0; padding:0;}
+
+    body {
+     background-color:#fff;
+     font-family:Arial, Helvetica, sans-serif;
+     color:#000;
+    }
+
+    nav {
+     margin:auto;
+     text-align: center;
+     width: 100%;
+    } 
+
+    nav ul ul {
+     display: none;
+    }
+
+    nav ul li:hover > ul{
+    display: block;
+    width: 150px;
+    }
+
+    nav ul {
+     background: #53bd84;
+     padding: 0 20px;
+     list-style: none;
+     position: relative;
+     display: inline-table;
+     width: 100%;
+    }
+
+    nav ul:after {
+     content: ""; 
+     clear:both; 
+     display: block;
+    }
+
+    nav ul li{
+     float:left;
+    }
+
+    nav ul li:hover{
+     background:#666;
+    }
+
+    nav ul li:hover a{
+     color:#fff;
+    }
+
+    nav ul li a{
+     display: block;
+     padding: 25px;
+     color: #fff;
+     text-decoration: none;
+    }
+
+    nav ul ul{
+     background: #53bd84;
+     border-radius: 0px;
+     padding: 0;
+     position: absolute;
+     top:100%;
+    }
+
+    nav ul ul li{
+     float:none;
+     border-top: 1px soild #53bd84;
+     border-bottom: 1px solid #53bd84;
+     position: relative;
+    }
+
+    nav ul ul li a{
+     padding: 15px 40px;
+     color: #fff;
+    }
+
+    nav ul ul li a:hover{
+     background-color: #666;
+    }
+
+    nav ul ul ul{
+     position: absolute;
+     left: 100%;
+     top: 0;
+    }
+</style>
+<body>
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Input</a>
+            <ul>
+                <li><a href="#">Anggota</a></li>
+                <li><a href="#">Buku</a></li>
+                <li><a href="#">Kategori Buku</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Transaksi</a>
+            <ul>
+                <li><a href="#">Peminjaman</a></li>
+                <li><a href="#">Pengembalian</a></li>
+            </ul>
+        </li>
+        <li><a href="#" onClick="return confirm ('Yakin?')">Logout</a></li>
+    </ul>
+</nav>
+</body>
+</html>
+			</textarea>
+            </div>
+            <div class="pala2"></div>
+			</div>
+			<div class="sidebar">
+				<h3>Tentang Penulis</h3>
+				<img src="img/Atha.jpg" alt="Muhammad Atha Tsaqif">
+				<p>Nama : Muhammad Atha Tsaqif</p>
+				<p>Hobi : Coding</p>
+				<p>Cita-Cita : Menjadi Programmer</p>
+				<p>Alamat : Bekasi</p>
+                <p>Usia : 14 Tahun</p>
+				<br><br><br><br>
+				<h3>Download Git 64-bit for windows</h3>
+				<div class="link">
+					<a href="App/Git-2.26.2-64-bit.exe" target="_blank" download>Klik disini</a>
+				</div>
+				<h3>Follow medsos kami</h3>
+				<div class="medsos">
+						<a href="https://www.instagram.com/atha_3417_1311" target="_blank">Instagram</a><span> | </span>
+						<a href="https://www.github.com/Atha3417" target="_blank">Github</a><span> | </span>
+						<a href="https://www.facebook.com/muhtasaq3417" target="_blank">Facebook</a><span> | </span>
+						<a href="https://www.bitbucket.org/Athatsaqif" target="_blank">Bitbucket</a>
+						<br/>
+						<a href="https://www.youtube.com/channel/UC33O2cFt4oP5E1ytygmJS1Q" target="_blank">Youtube</a><span>&nbsp;&nbsp; | </span>
+						<a href="https://www.gitlab.com/atha3417" target="_blank">&nbsp;Gitlab</a><span>&nbsp;&nbsp;| </span>
+						<a href="https://www.linkedin.com/in/atha-tsaqif-727b641a9" target="_blank">LinkedIn</a><span>&nbsp;&nbsp;|</span>
+						<a href="https://atha3417.github.io/NAFROZEN/">OtherWebsite</a>
+				</div>
+			</div>
+		</div>
+		<div class="thank">
+			<h4>Thanks For Visit My Website</h4>
+		</div>
+		<div class="footer">
+			<p class="copy">&copy; COPYRIGHT 2016. MUHTASAQ.</p>
+		</div>
+	</div>
+<script src="js/script.js"></script>
+</body>
+</html>
